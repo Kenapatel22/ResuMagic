@@ -1,10 +1,2 @@
-# node_modules
-node_modules/
-dist/
-
-
-# package-lock.json
-package-lock.json
-
-# .parcel-cache/data.mdb
-.parcel-cache/
+/Backend/node_modules/
+/Frontend/node_modules/
