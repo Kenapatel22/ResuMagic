@@ -1,0 +1,66 @@
+.reset-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f2f2f2, #ffffff);
+    padding: 20px;
+  }
+  
+  .reset-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .reset-form {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .reset-label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #666;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .reset-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  
+  .reset-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #c4c404;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .reset-button:hover {
+    background-color: #f0f1e6;
+    color: black;
+  }
+  
+  .reset-message {
+    margin-top: 15px;
+    color: #dc5dbc;
+    font-size: 0.9rem;
+  }
+  
